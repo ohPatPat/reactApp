@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.siteWrapper{
+  height: 100vh;
+  width: 100v;
+}
+
+header{
+  height: 20vh;
+  background-color: green;
+}
+
+
+.gridWrapper{
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+nav{
+  background-color: yellow;
+}
+
+main{
+  background-color: red;
+}
+
+footer{
+  background-color: blue;
+  height: 20vh;
+
+}
+
+footer ul{
+
+}
