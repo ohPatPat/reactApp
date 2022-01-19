@@ -2,6 +2,7 @@ import './App.scss';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Header } from './components/partials/header/Header'
 import { Main } from './components/partials/main/Main'
+import { Greatings } from './components/partials/hilsen/Hilsen'
 import { Footer } from './components/partials/footer/Footer'
 
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="/aboutAgain" element={<AboutAgain />} />
             <Route path="*" element={<NoPage />} />
           </Routes>
+          <Greatings />
         </Main>
         <Footer />
       </Router>
